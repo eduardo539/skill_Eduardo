@@ -1,0 +1,158 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hola",
+            "como estás",
+            "di hola mundo",
+            "di hola",
+            "hola mundo"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "uno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "dos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "SumaIntent",
+          "samples": [
+            "resultado de {uno} mas {dos}",
+            "dime cuanto es {uno} mas {dos}",
+            "{uno} mas {dos}",
+            "cuanto es {uno} mas {dos}",
+            "suma {uno} mas {dos}",
+            "alexa cuanto es {uno} mas {dos}",
+            "alexa suma {uno} mas {dos}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "dos",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "uno",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "RestaIntent",
+          "samples": [
+            "cuano es {uno} menos {dos}",
+            "reta menos {uno} menos {dos}",
+            "resultado de {uno} menos {dos}",
+            "resta {uno} menos {dos}",
+            "alexa cuanto es {uno} menos {dos}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "uno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "dos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "MultiplicacionIntent",
+          "samples": [
+            "resultado {uno} por {dos}",
+            "resultado de menos {uno} por menos {dos}",
+            "cuanto es menos {uno} por {dos}",
+            "resultado de menos {uno} por {dos}",
+            "dime cuanto es {uno} por {dos}",
+            "cuanto es {uno} por {dos}",
+            "multiplica {uno} por {dos}",
+            "resultado de {uno} por {dos}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "uno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "dos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "DivisionIntent",
+          "samples": [
+            "divide {uno} entre {dos}",
+            "resultado de {uno} entre {dos}",
+            "cuanto es {uno} entre {dos}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "uno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "dos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "PotenciaIntent",
+          "samples": [
+            "dime cuanto es {uno} elevado a {dos}",
+            "dime la potencia de {uno} elevado a {dos}",
+            "eleva {uno} elevado a {dos}",
+            "cuanto es {uno} elevado a {dos}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "angulo",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "CosenoIntent",
+          "samples": [
+            "cuanto es el conseno de {angulo} grados",
+            "calcula el coseno de {angulo} grados",
+            "coseno de {angulo}",
+            "coseno de {angulo} grados",
+            "resultado de coseno de {angulo} grados",
+            "calcula el coseno de {angulo}",
+            "dime el coseno de {angulo} grados",
+            "cuál es el coseno de {angulo}"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "primera calculadora basic"
+    }
+  }
+}
